@@ -1,0 +1,95 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing: border-box;
+}
+body {
+background-color: #FFFFFF	;
+font-family: sans-serif;
+}
+.menu-bar {
+	background:#FF0000;
+}
+.menu-bar ul {
+	display: inline-flex;
+	list-style:none;
+}
+.menu-bar ul li{
+	width:160px;
+	margin:15px;
+	padding:15px;
+}
+.menu-bar ul li a{
+	text-decoration:none;
+	color:#FFFFFF;
+}
+ .menu-bar ul li:hover {
+	background:	#DCDCDC;
+	border-radius:10px;
+}
+.menu-bar .fas {
+	margin-right:8px;
+}
+.sub-menu-1 {
+	display:none;
+}
+.menu-bar ul li:hover .sub-menu-1 {
+	display: block;
+	position:  absolute;
+	background: #FF0000;
+	margin-top:0px;
+	margin-left: -15px;
+	font-size:12px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+	width:190px;
+	padding:10px;
+	text-align:left;
+	border-radius:0;
+}
+.tablo {
+    border-spacing: 15px;
+    border-collapse: separate;
+	margin-left:auto; 
+margin-right:auto;
+margin-top:35px;
+
+
+}
+.tablo2 {
+  
+    border-collapse: separate;
+	margin-left:auto; 
+margin-right:auto;
+margin-top:35px;
+
+
+}
+.tablo tr {
+	border-color:#000000;
+}
+.tablo2 td {
+	border:0px;
+}
+.resim {
+    border:3px solid #FFFFFF;
+}
+.resim1 {
+    border:1px solid #000000;
+}
+.resim2 {
+    border:6px solid #000000;
+}
+button{
+    background-color:  #ff7675;
+    color:#2d3436;
+    padding:18px;
+    border:2px #d63031 solid;
+    font-size:20px;
+    border-radius: 5px;
+}
+
+
